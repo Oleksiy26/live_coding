@@ -1,6 +1,14 @@
 .vscode/**/*
 
 
+.idea/**/*
+*.iml
+*.xml
+ 
+
+
+
+
 package-lock.jsоn
 package-lock
 /package-lock
@@ -12,3 +20,4 @@ node_modules/
 /node_modules/
 /node_modules
 node_modules
+
