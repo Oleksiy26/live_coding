@@ -1,0 +1,39 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 0.5px solid #f7f7f7;
+  flex-basis: 50%;
+  &__img img {
+    width: 100%;
+    padding: 30px 15px;
+  }
+  &__info {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  &__title {
+    margin: 0;
+  }
+  &__price {
+    color: rgb(102, 102, 102);
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .product {
+    flex-basis: 25%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .product {
+    flex-basis: 20%;
+  }
+}
